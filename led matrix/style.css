@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.row{
+    display: flex;
+}
+
+.diode{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    margin: 5px;
+}
+.matrixContainer{
+    border: 2px #333 solid;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.oval1{
+    width: 15px;
+height: 15px;
+border-radius: 50%;
+background-color: #999;
+margin-right: 188px;
+position: relative;
+top: 34px;
+border: 4px white solid;
+}
+.oval2{
+    width: 15px;
+height: 15px;
+border-radius: 50%;
+background-color: #999;
+margin-left: 184px;
+position: relative;
+top: 20px;
+border: 4px white solid;
+}
+.oval3{
+    width: 15px;
+height: 15px;
+border-radius: 50%;
+background-color: #999;
+margin-right: 188px;
+position: relative;
+top: 34px;
+border: 4px white solid;
+position: relative;
+bottom: 50px;
+}
+.oval4{
+    width: 15px;
+height: 15px;
+border-radius: 50%;
+background-color: #999;
+margin-right: 188px;
+position: relative;
+top: 34px;
+right: 13px;
+border: 4px white solid;
+}
+.o{
+display: flex;
+margin-left: 200px;
+position: relative;
+bottom: 39px;
+}
+.txt{
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+position: relative;
+bottom: 12px;
+}
